@@ -22,5 +22,6 @@ public class prime{
 				return true;
 			}
 		}
+		return true;
 	}
 }
