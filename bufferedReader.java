@@ -19,7 +19,7 @@ public class bufferedReader{
 				y[i] = console.Integer.parseInt();
 				z[i] = x[i] + y[i];
 			}
-		}catch(IOException e)
+		}catch(IOException e){}
 		System.out.println("the resultant array");
 		for(int i=0;i<5;i++){
 			System.out.println(z[i]);
