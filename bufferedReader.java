@@ -5,9 +5,9 @@ public class bufferedReader{
 			System.out.println("Enter any 5 numbers ");
 		InputStreamReader stdin = new InputStreamReader(System.in);
 		BufferedReader console = new BufferedReader(stdin);
-		int x[] = new int [4];
-		int y[] = new int[4];
-		int z[] =  new int[4];
+		int x[] = new int [5];
+		int y[] = new int[5];
+		int z[] =  new int[5];
 		for(int i = 0 ; i < 5 ;i++){
 			try{
 				var1 = console.readLine();
