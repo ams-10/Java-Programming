@@ -8,15 +8,15 @@ public class bufferedReader{
 		int x[] = new int [5];
 		int y[] = new int[5];
 		int z[] =  new int[5];
-		for(int i = 0 ; i < 5 ;i++){
-			try{
+		try{
+			for(int i = 0 ; i < 5 ;i++){
 				var1 = console.readLine();
 				x[i] = Integer.parseInt(var1);
 			}
-			catch(IOException e){}
+		}catch(IOException e){}
 		System.out.println("enter five no.s in second array");
 		try{
-			for(i=0 ; i<5 ; i++){
+			for( int i=0 ; i<5 ; i++){
 				var2 = console.readLine();
 				y[i] = Integer.parseInt(var2);
 				z[i] = x[i] + y[i];
@@ -26,7 +26,5 @@ public class bufferedReader{
 		for(i=0;i<5;i++){
 			System.out.println(z[i]);
 		}
-		}
-			
 	}
 }
