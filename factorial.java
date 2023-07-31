@@ -1,9 +1,9 @@
-import java.util.scanner;
+import java.util.Scanner;
 public class factorial{
 	public static void main(String args[]){
 		int i;
 		int fact = 1;
-		scanner sc = new scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		for(i=1;i<=num;i++){
 			fact=fact*i;
