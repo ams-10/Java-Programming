@@ -23,7 +23,7 @@ public class bufferedReader{
 			}
 		}catch(IOException e){}
 		System.out.println("the resultant array");
-		for(i=0;i<5;i++){
+		for(int i=0;i<5;i++){
 			System.out.println(z[i]);
 		}
 	}
