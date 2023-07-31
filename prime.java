@@ -1,7 +1,7 @@
 import java.util.*;
 public class prime{
 	public static void main(String args[]){
-		Scanner sc = new Scanner(system.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("enter number to check if prime or not : ");
 		int inpt = sc.nextInt();
 		if(isprime(inpt)){
