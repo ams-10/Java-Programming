@@ -14,7 +14,7 @@ public class bufferedReader{
 				x[i] = Integer.parseInt(var1);
 			}
 			catch(IOException e){}
-	
+		System.out.println("enter five no.s in second array");
 		try{
 			for(i=0 ; i<5 ; i++){
 				var2 = console.readLine();
