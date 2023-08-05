@@ -9,8 +9,9 @@ class StringMethods{
 		p(str1);
 		p(str2);
 		p("Concatenated String : " +str3);
-		p("String lowerCased : "+str3.toLowerCase());
+		p("String upperCased : "+str3.toUpperCase());
 		p("length of string : "+str3.length());
+		p("character at index 8 : "str3.charAt(8));
 		p("index of o in string "+ str3.indexOf("o"));
 	}
 }
