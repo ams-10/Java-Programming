@@ -1,0 +1,21 @@
+interface One{
+	public void print_one();
+}
+interface Two{
+	public void print_two();
+}
+class Three implements One,Two{
+	public void print_one(){
+		System.out.prinln("hello ");
+	}
+	public void print_two(){
+		System.out.prinln("world");
+	}
+}
+class Main{
+	public static void main(String args[]){
+		Three obj = new Three();
+		obj.print_one();
+		obj.print_two();
+	}
+}
