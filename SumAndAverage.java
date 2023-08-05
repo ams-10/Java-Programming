@@ -9,8 +9,8 @@ class SumAndAverage{
 		
 		for(int i=0 ; i<n ; i++){
 			System.out.println("Enter the numbers to add : "+(i+1)+" : ");
-			int number = sc.nextInt();
-			sum += number;
+			int num = sc.nextInt();
+			sum += num;
 		}
 		System.out.println("Sum of the number : "+sum);
 		double avg = sum/n;
