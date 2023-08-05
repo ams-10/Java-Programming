@@ -8,7 +8,7 @@ class SumAndAverage{
 		int sum = 0;
 		
 		for(int i=0 ; i<n ; i++){
-			System.out.println("Enter the number : "+(i+1)+" : ");
+			System.out.println("Enter the numbers to add : "+(i+1)+" : ");
 			int number = sc.nextInt();
 			sum += number;
 		}
