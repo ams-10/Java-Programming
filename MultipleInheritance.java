@@ -6,10 +6,10 @@ interface Two{
 }
 class Three implements One,Two{
 	public void print_one(){
-		System.out.prinln("hello ");
+		System.out.println("hello ");
 	}
 	public void print_two(){
-		System.out.prinln("world");
+		System.out.println("world");
 	}
 }
 class Main{
