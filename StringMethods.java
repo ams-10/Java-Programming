@@ -11,7 +11,7 @@ class StringMethods{
 		p("Concatenated String : " +str3);
 		p("String upperCased : "+str3.toUpperCase());
 		p("length of string : "+str3.length());
-		p("character at index 6 : ", str3.charAt(6));
+		p("character at index 6 : " + str3.charAt(6));
 		p("index of o in string "+ str3.indexOf("o"));
 	}
 }
