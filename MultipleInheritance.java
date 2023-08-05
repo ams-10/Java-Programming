@@ -12,7 +12,7 @@ class Three implements One,Two{
 		System.out.println("world");
 	}
 }
-class Main{
+class MultipleInheritance{
 	public static void main(String args[]){
 		Three obj = new Three();
 		obj.print_one();
